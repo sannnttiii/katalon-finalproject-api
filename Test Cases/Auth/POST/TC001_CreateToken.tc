@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_CreateToken</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3767180-796a-483e-a9d8-c074c578f0af</testCaseGuid>
+</TestCaseEntity>
