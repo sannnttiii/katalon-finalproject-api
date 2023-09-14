@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Santi - Test Case import Jira - Create Auth Token
+Description: @AuthToken
+
+Feature: Authentication Feature
+
+As a user, I want to create token authentication.
+
+ 
+
+@Valid
+
+Scenario Outline: API Create Token Authentication
+
+When I set username &lt;username> and password &lt;password>
+
+And I click Run Verify to check token has been created
+
+Examples:
+
+| username | password |
+
+| admin | password123 |</description>
+   <name>ABP-1 Santi - Test Case import Jira - Create Auth Token</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0002f:&quot;},&quot;status&quot;:{&quot;id&quot;:10003,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://ksat08git.atlassian.net/&quot;,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/status/10003&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/project/10002&quot;,&quot;key&quot;:&quot;ABP&quot;,&quot;id&quot;:10002,&quot;name&quot;:&quot;API Based Project&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Santi - Test Case import Jira - Create Auth Token&quot;,&quot;description&quot;:&quot;@AuthToken\n\nFeature: Authentication Feature\n\nAs a user, I want to create token authentication.\n\n \n\n@Valid\n\nScenario Outline: API Create Token Authentication\n\nWhen I set username \u003cusername\u003e and password \u003cpassword\u003e\n\nAnd I click Run Verify to check token has been created\n\nExamples:\n\n| username | password |\n\n| admin | password123 |&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;santi.jati12@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Santi Trinitasjati&quot;,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/user?accountId\u003d63d88ec8790148a180930b22&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/issue/ABP-1/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://ksat08git.atlassian.net/rest/api/2/issue/10012&quot;,&quot;key&quot;:&quot;ABP-1&quot;,&quot;id&quot;:10012}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>aee00324-0dcf-4937-90d0-8afab89c6a36</testCaseGuid>
+</TestCaseEntity>
